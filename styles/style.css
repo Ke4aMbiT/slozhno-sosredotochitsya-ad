@@ -1,4 +1,4 @@
-page {
+.page {
     margin: 0 auto;
     font-family: var(--font, monospace);
     font-size: var(--font-size);
@@ -54,7 +54,7 @@ page {
     position: absolute;
     top: 0;
     right: 0;
-
+    content: "";
     display: flex;
     align-items: center;
     gap: 10px;
@@ -92,6 +92,7 @@ page {
     position: absolute;
     bottom: 0;
     left: 0;
+    content: "";
     border-bottom: 1px solid var(--btn-color);
     border-left: 1px solid var(--btn-color);
     inline-size: 25px;
@@ -102,7 +103,7 @@ page {
 .header__title {
     margin-left: -20px;
     text-shadow: 4px 4px 0 var(--accent-color);
-    font-size: clamp(7.5rem, 0.5rem + 14.5vw, 9.8rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     color: var(--title-color);
     font-weight: 700;
     line-height: 82.5%;
@@ -266,7 +267,7 @@ page {
 
 .footer__title {
     text-shadow: 4px 4px 0 var(--accent-color);
-    font-size: clamp(7.5rem, 0.5rem + 14.5vw, 9.8rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     color: var(--title-color);
     font-weight: 700;
     line-height: 82.5%;
@@ -291,7 +292,7 @@ page {
     }
 
     .header__title {
-        font-size: clamp(7.5rem, 0.5rem + 14.5vw, 9.8rem);
+        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     }
 
     .section__one {
@@ -331,7 +332,7 @@ page {
 
     .header__title {
         margin-left: 0px;
-        font-size: clamp(7.25rem, 7rem + 1vw, 7.5rem);
+        font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     }
 
     .header__text {
@@ -393,7 +394,7 @@ page {
     }
 
     .footer__title {
-        font-size: clamp(7.25rem, 7rem + 1vw, 7.5rem);
+        font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     }
 
     .decorative__element {
